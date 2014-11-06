@@ -1,0 +1,12 @@
+/* Header */
+header {
+  background-color: #27303E;
+}
+
+header .row .header_links{
+  color: #fff;
+  padding: 5px 20px 1px;
+  &:hover {
+  background-color: #464b53;
+  }
+}
