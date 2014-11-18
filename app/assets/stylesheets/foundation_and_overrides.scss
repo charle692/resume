@@ -240,7 +240,7 @@ $include-html-global-classes: $include-html-classes;
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;
-// $paragraph-text-rendering: optimizeLegibility;
+$paragraph-text-rendering: optimizeLegibility;
 
 // We use these to style <code> tags
 // $code-color: $oil;
@@ -1267,12 +1267,12 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: $white;
+$table-bg: inherit;
 // $table-even-row-bg: $snow  ;
 
 // These control the table cell border style
-// $table-border-style: solid;
-// $table-border-size: 1px;
+$table-border-style: none;
+$table-border-size:0;
 // $table-border-color: $gainsboro;
 
 // These control the table head styles
