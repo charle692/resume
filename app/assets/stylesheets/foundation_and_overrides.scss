@@ -1267,12 +1267,12 @@ $paragraph-text-rendering: optimizeLegibility;
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-$table-bg: inherit;
+// $table-bg: $white;
 // $table-even-row-bg: $snow  ;
 
 // These control the table cell border style
-$table-border-style: none;
-$table-border-size:0;
+// $table-border-style: solid;
+// $table-border-size: 1px;
 // $table-border-color: $gainsboro;
 
 // These control the table head styles
