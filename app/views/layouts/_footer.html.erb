@@ -1,18 +1,24 @@
 <footer>
   <div class="row">
-    <!-- Github Account -->
-    <div class="columns small-2 push-4">
-      <%= link_to image_tag('GitHub-Mark-Light-120px-plus.png', class: "logo_images", alt: 'GitHub Logo'), "https://github.com/charle692/" %>
+
+    <div class="text-center" id="contact">
+      <h4>Contact</h4>
+      <p>Email: <%= mail_to "charle692@gmail.com", "charle692@gmail.com",  :encode => "hex"%></p>
+      <p>Phone #: (613) 662-0530</p>
     </div>
 
-    <!-- Twitter Account Note: Not loading into firefox developer edition -->
+    <div class="columns small-2 push-4">
+      <%= link_to image_tag('GitHub.png', class: "logo_images", alt: 'GitHub Logo'), "https://github.com/charle692/" %>
+    </div>
+
+    <!-- Twitter Account Note: Does not load in Linux -->
     <div class="columns small-2 push-6">
       <%= link_to image_tag('Twitter.png', class: "logo_images", alt: 'Twitter Logo'), "https://twitter.com/OC_Ryn/" %>
     </div>
 
-    <!-- LinkedIn Account Note: Not loading into firefox developer edition -->
+    <!-- LinkedIn Account Note: Does not load in Linux -->
     <div class="columns small-2 small-centered">
-      <%= link_to image_tag("LinkedIn-InBug-2CRev.png", class: "logo_images", alt: 'LinkedIn Logo'), "https://www.linkedin.com/pub/ryan-o-connor/90/abb/a58" %>
+      <%= link_to image_tag("LinkedIn.png", class: "logo_images", alt: 'LinkedIn Logo'), "https://www.linkedin.com/pub/ryan-o-connor/90/abb/a58" %>
     </div>
   </div>
 </footer>
