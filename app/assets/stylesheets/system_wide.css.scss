@@ -1,5 +1,20 @@
 body {
 	background-color: #F9F9F9;
-	font-family: Fira Sans, "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: Fira Sans, Helvetica, Arial, sans-serif;
+}
+
+#profile_picture {
+	height: 200px;
+	width: auto;
+	margin: 20px;
+}
+
+h1, h2, h3, li, tr {
+	color: #27303E;
+	font-family: Fira Sans, Helvetica, Arial, sans-serif;
+}
+
+.subheaders {
+	font-weight: bold;
 }
 
