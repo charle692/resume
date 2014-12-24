@@ -33,3 +33,10 @@ h1, h2, h3, li, tr {
 html {
 	overflow-x: hidden;
 }
+
+.medium-4 ul {
+	list-style-type: none;
+	li {
+		margin: 10px;
+	}
+}

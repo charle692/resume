@@ -1,13 +1,17 @@
 <div class="row">
-	<div class="small-4 small-centered medium-uncentered medium-4 columns">
+	<div class="small-8 small-centered medium-uncentered medium-4 columns">
 		<%= image_tag('profile_picture.png', id: "profile_picture", alt: 'Ryan O\'Connor') %>
 	</div>
 
 	<div class="small-12 medium-8 columns">	
 		<h2 class="text-center" id="about">A Little About me</h2>
 		<p>
-			Something about me that
-			I will be putting in later. Need to mention Software Engineering Student Associations
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
 </div>
@@ -25,6 +29,7 @@
 	</div>
 
 	<div class="small-12 medium-8 columns">
+		<strong>BASc in Software Engineering</strong>
 		<p>
 			My studies at the University of Ottawa have allowed me to develop strong design skills, by using requirements engineering techniques, analysis level diagrams and design level diagrams. I've also learned how to translate requirements and diagrams into a quality software system. Java has been used as the main programming language for learning, as well as HTML/CSS, SQL, and Ruby.
 		</p>
@@ -56,7 +61,8 @@
 		<small class="date">June 2014 - August 2014</small>
 	</div>
 
-	<div class="small-12 medium-8 columns">		
+	<div class="small-12 medium-8 columns">	
+		<strong>VoIP Manager - Service Assurance and Development</strong>	
 		<p>
 			At Bell Canada I  provided quality assurance for Bell's VoIP platform. I aided customers with validation testing, and verified that their results were as expected by analyzing SIP traces using Wireshark. I was also part of testing for new version releases and aided with diagnosing system outages. During my time working at Bell Canada I implemented a call forwarding feature on FreeSwitch for internal release testing.
 		</p>
@@ -70,6 +76,7 @@
 	</div>
 
 	<div class="small-12 medium-8 columns">	
+		<strong>Kontron Mechanic</strong>
 		<p>
 			SigmaPoint Technologies is an electronics manufacturer where I worked as a Kontron mechanic. I assembled CompactPCI boards and server boards. I worked under the Toyota Production System, used by SigmaPoint to provide quality products in a fast and efficient manner all while reducing waste.
 		</p>
@@ -83,6 +90,7 @@
 	</div>
 
 	<div class="small-12 medium-8 columns">	
+		<strong>Drive-Through Team Member</strong>
 		<p>
 			While working at Tim Hortons, I was part of the drive-through team providing customers with fast quality service. I dealt with any customer concerns that came to my attention as professionally as possible. At Tim Hortons I developed strong communication skills as my primary function was taking drive-through orders.
 		</p>
@@ -90,117 +98,36 @@
 </div>
 
 <div class="row">
-	<div class="push-2">
-		<h2 class="text-center">Skills</h2>	
-	</div>
+	<h2 class="text-center">Skills and Tools</h2>	
 </div>
 
 <div class="row">
-	<div class="small-12 medium-6 columns">	
-		<table>
-			<thead>
-				<tr>
-					<th>Skill</th>
-					<th>Experience</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java') %></td>
-					<td>Java</td>
-					<td>4 years</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('HTML5.png', class: 'skill_logo', alt: 'HTML') %></td>
-					<td>HTML</td>
-					<td>1 year</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('css.png', class: 'skill_logo', alt: 'CSS') %></td>
-					<td>CSS</td>
-					<td>1 year</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('ruby.png', class: 'skill_logo', alt: 'Ruby') %></td>
-					<td>Ruby</td>
-					<td>1 year</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('PostgreSQL.png', class: 'skill_logo', alt: 'PostrgreSQL') %></td>
-					<td>PostrgreSQL</td>
-					<td>5 months</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('go.png', class: 'skill_logo', alt: 'Go') %></td>
-					<td>Go</td>
-					<td>1 month</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('RoR.png', class: 'skill_logo', alt: 'Ruby on Rails') %></td>
-					<td>Ruby on Rails</td>
-					<td>1 year</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('foundation.png', class: 'skill_logo', alt: 'Foundation') %></td>
-					<td>Foundation</td>
-					<td>5 months</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('bootstrap.png', class: 'skill_logo', alt: 'Bootstrap') %></td>
-					<td>Bootstrap</td>
-					<td>5 months</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java') %></td>
-					<td>Java EE</td>
-					<td>4 months</td>
-				</tr>
-			</tbody>
-		</table>
+	<div class="small-12 medium-4 push-2 columns">
+		<ul>
+			<li><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java') %> <span>Java</span> <span>4 years</span></li>
+			<li><%= image_tag('HTML5.png', class: 'skill_logo', alt: 'HTML') %> <span>HTML</span> <span>1 year</span></li>
+			<li><%= image_tag('css.png', class: 'skill_logo', alt: 'CSS') %> <span>CSS</span> <span>1 year</span></li>
+			<li><%= image_tag('ruby.png', class: 'skill_logo', alt: 'Ruby') %> <span>Ruby</span> <span>1 year</span></li>
+			<li><%= image_tag('PostgreSQL.png', class: 'skill_logo', alt: 'PostrgreSQL') %> <span>PostgreSQL</span> <span>5 months</span></li>
+			<li><%= image_tag('go.png', class: 'skill_logo', alt: 'Go') %> <span>Go</span> <span>1 month</span></li>
+			<li><%= image_tag('RoR.png', class: 'skill_logo', alt: 'Ruby on Rails') %> <span>Ruby on Rails</span> <span>1 year</span></li>
+			<li><%= image_tag('foundation.png', class: 'skill_logo', alt: 'Foundation') %> <span>Foundation</span> <span>5 months</span></li>
+			<li><%= image_tag('bootstrap.png', class: 'skill_logo', alt: 'Bootstrap') %> <span>Bootstrap</span> <span>5 months</span></li>
+			<li><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java') %> <span>Java EE</span> <span>4 months</span></li>
+		</ul>	
 	</div>
 
-	<div class="small-12 medium-6 columns">	
-		<table>
-			<thead>
-				<tr>
-					<th>Tools</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><%= image_tag('eclipse.png', class: 'skill_logo', alt: 'Eclipse') %></td>
-					<td>Eclipse</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('Netbeans.png', class: 'skill_logo', alt: 'Netbeans') %></td>
-					<td>Netbeans</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('Git.png', class: 'skill_logo', alt: 'Git') %></td>
-					<td>Git</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('android-sdk.png', class: 'skill_logo', alt: 'Android SDK') %></td>
-					<td>Android SDK</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('linux.png', class: 'skill_logo', alt: 'Linux Tux') %></td>
-					<td>Linux</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('wireshark.png', class: 'skill_logo', alt: 'Wireshark') %></td>
-					<td>Wireshark</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('freeswitch.png', class: 'skill_logo', id: 'freeswitch', alt: 'FreeSwitch') %></td>
-					<td>FreeSwitch</td>
-				</tr>
-				<tr>
-					<td><%= image_tag('heroku.png', class: 'skill_logo', alt: 'Heroku') %></td>
-					<td>Heroku</td>
-				</tr>
-			</tbody>
-		</table>
+	<div class="small-12 medium-4 columns">	
+		<ul>
+			<li><%= image_tag('eclipse.png', class: 'skill_logo', alt: 'Eclipse') %> <span>Eclipse</span></li>
+			<li><%= image_tag('Netbeans.png', class: 'skill_logo', alt: 'Netbeans') %> <span>Netbeans</span></li>
+			<li><%= image_tag('Git.png', class: 'skill_logo', alt: 'Git') %> Git</li>
+			<li><%= image_tag('android-sdk.png', class: 'skill_logo', alt: 'Android SDK') %> <span>Android SDK</span></li>
+			<li><%= image_tag('linux.png', class: 'skill_logo', alt: 'Linux Tux') %> <span>Linux</span></li>
+			<li><%= image_tag('wireshark.png', class: 'skill_logo', alt: 'Wireshark') %> <span>Wireshark</span></li>
+			<li><%= image_tag('freeswitch.png', class: 'skill_logo', id: 'freeswitch', alt: 'FreeSwitch') %> <span>FreeSwitch</span></li>
+			<li><%= image_tag('heroku.png', class: 'skill_logo', alt: 'Heroku') %> <span>Heroku</span></li>	
+		</ul>
 	</div>
 </div>
 
