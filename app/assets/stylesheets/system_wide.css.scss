@@ -28,3 +28,8 @@ h1, h2, h3, li, tr {
 	height: auto; 
 	width: 50px;
 }
+
+/*Temporary hack for hiding horizontal overflow*/
+html {
+	overflow-x: hidden;
+}
