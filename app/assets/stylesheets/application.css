@@ -16,3 +16,7 @@
  *= require normalize-rails
  */
 
+html {
+	overflow-x: hidden;
+}
+

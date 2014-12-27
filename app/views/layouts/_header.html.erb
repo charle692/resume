@@ -7,12 +7,18 @@
     </ul> 
     <section class="top-bar-section">
       <ul class="right">
-        <li class="divider"></li> <!-- Seems to be the divider in between each link -->
-        <li><%= link_to 'About', '#' %></li>
         <li class="divider"></li>
-        <li><%= link_to 'Contact', '#' %></li>
+        <li class="header_link"><%= link_to 'About', root_path+'#about'%></li>
         <li class="divider"></li>
-        <li><%= link_to 'Projects', '#' %></li>
+        <li class="header_link"><%= link_to 'Education', root_path+'#education'%></li>
+        <li class="divider"></li>
+        <li class="header_link"><%= link_to 'Experience', root_path+'#experience'%></li>
+        <li class="divider"></li>
+        <li class="header_link"><%= link_to 'Skills', root_path+'#skills'%></li>
+        <li class="divider"></li>
+        <li class="header_link"><%= link_to 'Projects', root_path+'#projects'%></li>
+        <li class="divider"></li>
+        <li class="header_link"><%= link_to 'Contact', root_path+'#contact'%></li>
         <li class="divider"></li>
       </ul>
     </section> 
