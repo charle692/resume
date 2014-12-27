@@ -100,7 +100,7 @@ $include-html-global-classes: $include-html-classes;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
 
-// $white       : #FFFFFF;
+$white       : #F9F9F9;
 // $ghost       : #FAFAFA;
 // $snow        : #F9F9F9;
 // $vapor       : #F6F6F6;
@@ -1262,11 +1262,11 @@ $paragraph-text-rendering: optimizeLegibility;
 // $include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: $white;
-// $table-even-row-bg: $snow  ;
+$table-bg: $white;
+$table-even-row-bg: $white;
 
 // These control the table cell border style
-// $table-border-style: solid;
+$table-border-style: none;
 // $table-border-size: 1px;
 // $table-border-color: $gainsboro;
 

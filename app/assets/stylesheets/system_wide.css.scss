@@ -19,6 +19,7 @@ h1, h2, h3, li, tr {
 #about {
 	margin-top: 20px;
 }
+
 .skill_logo {
 	width: 30px; 
 	height: auto;
@@ -29,9 +30,23 @@ h1, h2, h3, li, tr {
 	width: 50px;
 }
 
-.medium-4 ul {
-	list-style-type: none;
-	li {
-		margin: 10px;
-	}
+/* Skills */
+table {
+	width: 400px;
+}
+
+.icon {
+	width: 30px;
+}
+
+.icon2 {
+	width: 50px;
+}
+
+.time {
+	width: 50px;
+}
+
+tr {
+	height: 59px;
 }
