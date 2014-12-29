@@ -46,3 +46,47 @@ h1, h2, h3, li, tr {
 tr {
 	height: 59px;
 }
+
+/* Projects */
+
+.project_image {
+	width: 200px;
+	height: auto;
+}
+
+/* Subtitle Styling */
+
+.subtitle {
+	background-color: #eee;
+	padding: 15px;
+	padding-top: 26px;
+	margin: 20px 0 40px; 
+
+}
+
+#education {
+	margin-top: 40px;
+}
+
+#projects {
+	margin-top: -20px;
+}
+
+#skills {
+	.subtitle {
+		margin-bottom: 0;
+	}
+}
+
+#skills_container {
+	background-color: #364356;
+	padding: 20px 0 20px;
+
+	-moz-box-shadow:    inset 0 0 10px #000;
+   	-webkit-box-shadow: inset 0 0 10px #000;
+  	box-shadow:         inset 0 0 10px #000;
+
+	td {
+		color: white;
+	}
+}

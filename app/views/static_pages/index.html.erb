@@ -17,8 +17,8 @@
 </div>
 
 <div id="education">
-	<div class="row">
-		<div class="push-2">
+	<div class="subtitle">	
+		<div class="row">
 			<h2 class="text-center">Education</h2>	
 		</div>
 	</div>
@@ -51,12 +51,12 @@
 	</div>
 </div>
 
-<div id="experience">	
-	<div class="row">	
-		<div class="push-2">	
+<div id="experience">
+	<div class="subtitle">	
+		<div class="row">		
 			<h2 class="text-center">Experience</h2>
-	 	</div>
-	</div>
+		</div>
+	</div>	
 
 	<div class="row">
 		<div class="small-12 medium-4 columns">
@@ -103,142 +103,158 @@
 
 <!-- For on page scrolling -->
 <div id="skills">
-	<div class="row">
-		<h2 class="text-center">Skills and Tools</h2>	
+	<div class="subtitle">
+		<div class="row">
+			<h2 class="text-center">Skills</h2>	
+		</div>
 	</div>
 
-	<div class="row">
-		<div class="small-6 medium-3 push-3 columns">
-			<table>
-				<tr>
-					<td class="icon2"><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java') %></td>
-					<td>Java</td>
-					<!-- <td class="time">4 years</td> -->
-				</tr>
+	<div id="skills_container">
+		<div class="row">
+			<div class="small-6 medium-3 push-3 columns">
+				<table>
+					<tr>
+						<td class="icon2"><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java') %></td>
+						<td>Java</td>
+						<!-- <td class="time">4 years</td> -->
+					</tr>
 
-				<tr>	
-					<td><%= image_tag('HTML5.png', class: 'skill_logo', alt: 'HTML') %></td>
-					<td>HTML</td>
-					<!-- <td>1 year</td> -->
-				</tr>
+					<tr>	
+						<td><%= image_tag('HTML5.png', class: 'skill_logo', alt: 'HTML') %></td>
+						<td>HTML</td>
+						<!-- <td>1 year</td> -->
+					</tr>
 
-				<tr>
-					<td><%= image_tag('css.png', class: 'skill_logo', alt: 'CSS') %></td>
-					<td>CSS</td>
-					<!-- <td>1 year</td> -->
-				</tr>
+					<tr>
+						<td><%= image_tag('css.png', class: 'skill_logo', alt: 'CSS') %></td>
+						<td>CSS</td>
+						<!-- <td>1 year</td> -->
+					</tr>
 
-				<tr>
-					<td><%= image_tag('ruby.png', class: 'skill_logo', alt: 'Ruby') %></td>
-					<td>Ruby</td>
-					<!-- <td>1 year</td> -->
-				</tr>
+					<tr>
+						<td><%= image_tag('ruby.png', class: 'skill_logo', alt: 'Ruby') %></td>
+						<td>Ruby</td>
+						<!-- <td>1 year</td> -->
+					</tr>
 
-				<tr>
-					<td><%= image_tag('PostgreSQL.png', class: 'skill_logo', alt: 'PostgreSQL') %></td>
-					<td>PostgreSQL</td>
-					<!-- <td>5 months</td> -->
-				</tr>
+					<tr>
+						<td><%= image_tag('PostgreSQL.png', class: 'skill_logo', alt: 'PostgreSQL') %></td>
+						<td>PostgreSQL</td>
+						<!-- <td>5 months</td> -->
+					</tr>
 
-				<tr>
-					<td><%= image_tag('RoR.png', class: 'skill_logo', alt: 'Ruby on Rails') %></td>
-					<td>Ruby on Rails</td>
-					<!-- <td>1 year</td> -->
-				</tr>
+					<tr>
+						<td><%= image_tag('RoR.png', class: 'skill_logo', alt: 'Ruby on Rails') %></td>
+						<td>Ruby on Rails</td>
+						<!-- <td>1 year</td> -->
+					</tr>
 
-				<tr>
-					<td><%= image_tag('foundation.png', class: 'skill_logo', alt: 'Foundation') %></td>
-					<td>Foundation</td>
-					<!-- <td>5 months</td> -->
-				</tr>
+					<tr>
+						<td><%= image_tag('foundation.png', class: 'skill_logo', alt: 'Foundation') %></td>
+						<td>Foundation</td>
+						<!-- <td>5 months</td> -->
+					</tr>
 
-				<tr>
-					<td><%= image_tag('bootstrap.png', class: 'skill_logo', alt: 'Bootstrap') %></td>
-					<td>Bootstrap</td>
-					<!-- <td>5 months</td> -->
-				</tr>
+					<tr>
+						<td><%= image_tag('bootstrap.png', class: 'skill_logo', alt: 'Bootstrap') %></td>
+						<td>Bootstrap</td>
+						<!-- <td>5 months</td> -->
+					</tr>
 
-				<tr>
-					<td><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java EE') %></td>
-					<td>Java EE</td>
-					<!-- <td>4 months</td> -->
-				</tr>
-			</table>	
-		</div>
+					<tr>
+						<td><%= image_tag('Java.png', class: 'skill_logo', alt: 'Java EE') %></td>
+						<td>Java EE</td>
+						<!-- <td>4 months</td> -->
+					</tr>
+				</table>	
+			</div>
 
-		<div class="small-6 medium-3 pull-2 columns">	
-			<table>
-				<tr class="row_height">
-					<td class="icon2"><%= image_tag('eclipse.png', class: 'skill_logo', alt: 'Eclipse') %></td>
-					<td>Eclipse</td>	
-				</tr>
+			<div class="small-6 medium-3 pull-2 columns">	
+				<table>
+					<tr class="row_height">
+						<td class="icon2"><%= image_tag('eclipse.png', class: 'skill_logo', alt: 'Eclipse') %></td>
+						<td>Eclipse</td>	
+					</tr>
 
-				<tr>
-					<td><%= image_tag('Netbeans.png', class: 'skill_logo', alt: 'Netbeans') %></td>
-					<td>Netbeans</td>
-				</tr>
+					<tr>
+						<td><%= image_tag('Netbeans.png', class: 'skill_logo', alt: 'Netbeans') %></td>
+						<td>Netbeans</td>
+					</tr>
 
-				<tr>
-					<td><%= image_tag('Git.png', class: 'skill_logo', alt: 'Git') %></td>
-					<td>Git</td>
-				</tr>
+					<tr>
+						<td><%= image_tag('Git.png', class: 'skill_logo', alt: 'Git') %></td>
+						<td>Git</td>
+					</tr>
 
-				<tr>
-					<td><%= image_tag('android-sdk.png', class: 'skill_logo', alt: 'Android SDK') %></td>
-					<td>Android SDK</td>
-				</tr>
+					<tr>
+						<td><%= image_tag('android-sdk.png', class: 'skill_logo', alt: 'Android SDK') %></td>
+						<td>Android SDK</td>
+					</tr>
 
-				<tr>
-					<td><%= image_tag('linux.png', class: 'skill_logo', alt: 'Linux Tux') %></td>
-					<td>Linux</td>
-				</tr>
+					<tr>
+						<td><%= image_tag('linux.png', class: 'skill_logo', alt: 'Linux Tux') %></td>
+						<td>Linux</td>
+					</tr>
 
-				<tr>
-					<td><%= image_tag('wireshark.png', class: 'skill_logo', alt: 'Wireshark') %></td>
-					<td>Wireshark</td>
-				</tr>
-				<tr>	
-					<td><%= image_tag('freeswitch.png', id: 'freeswitch', alt: 'FreeSwitch') %></td>
-					<td>FreeSwitch</td>
-				</tr>
+					<tr>
+						<td><%= image_tag('wireshark.png', class: 'skill_logo', alt: 'Wireshark') %></td>
+						<td>Wireshark</td>
+					</tr>
+					<tr>	
+						<td><%= image_tag('freeswitch.png', id: 'freeswitch', alt: 'FreeSwitch') %></td>
+						<td>FreeSwitch</td>
+					</tr>
 
-				<tr>
-					<td><%= image_tag('heroku.png', class: 'skill_logo', alt: 'Heroku') %></td>	
-					<td>Heroku</td>
-				</tr>
-				
-				<tr>
-					<td><%= image_tag('Hardware.png', class: 'skill_logo', alt: 'Hardware') %></td>
-					<td>Hardware</td>
-				</tr>
-			</table>
+					<tr>
+						<td><%= image_tag('heroku.png', class: 'skill_logo', alt: 'Heroku') %></td>	
+						<td>Heroku</td>
+					</tr>
+					
+					<tr>
+						<td><%= image_tag('Hardware.png', class: 'skill_logo', alt: 'Hardware') %></td>
+						<td>Hardware</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</div>
 </div>
 
 <!-- For on page scrolling -->
 <div id="projects">	
-	<div class="row">	
-		<div class="push-2">	
-			<h2 class="text-center">Projects</h2>
+	<div class="subtitle">
+		<div class="row">		
+				<h2 class="text-center">Projects</h2>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="small-12 medium-4 columns">		
-			<h3>Property Rental System</h3>
+		<div class="small-12 medium-8 push-4 columns">
+			<h3 class="subheaders">Property Rental System</h3>
 		</div>
+
 		<div class="small-12 medium-8 columns">
-			<p></p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
+</div>
 
 	<div class="row">
 		<div class="small-12 medium-4 columns">		
-			<h3>Binary Converter</h3>
 		</div>
 		<div class="small-12 medium-8 columns">
-			<p></p>
+			<h3 class="subheaders">Binary Converter</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 	</div>
 </div>
