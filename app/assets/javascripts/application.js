@@ -13,8 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require turbolinks
+// require turbolinks
 //= require_tree .
+
+$(document).foundation();
+  $('a.left-off-canvas-toggle').on('click',function(){
+});
 
 var ready;
 

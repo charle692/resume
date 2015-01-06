@@ -12,8 +12,14 @@
   </head>
 
   <body>
-    <%= render 'layouts/header' %>
-    <%= yield %>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <%= render 'layouts/header' %>
+        <%= yield %>
+        <!-- Currently overlaps the canvas -->
+        <!-- <a class="exit-off-canvas"></a> -->
+      </div>
+    </div>
     <%= render 'layouts/footer' %>
     <%= javascript_include_tag "application" %>
   </body>
