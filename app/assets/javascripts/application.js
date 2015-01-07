@@ -16,6 +16,7 @@
 // require turbolinks
 //= require_tree .
 
+// On menu click slide open the canvas
 $(document).foundation();
   $('a.left-off-canvas-toggle').on('click',function(){
 });
