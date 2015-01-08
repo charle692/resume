@@ -1,6 +1,7 @@
 /* Footer */
+
 footer {
-  background-color: #27303E;
+  background-color: #3D3F3C;
   font-family: Fira Sans, Helvetica, Arial, sans-serif;
 }
 
@@ -12,16 +13,31 @@ footer .columns {
 	text-align: center;
 }
 
+#contact_header {
+  color: #92c662;
+}
+
+
+
 /* Social Media Logos */
+
 .logo_images {
   width : 40px;
   height: auto;
 }
 
+
+
 /* Contact */
+
 #contact {
 	color: white;
 	margin: 0 auto;
 }
 
-
+ul {
+  list-style-type: none;
+  li {
+    color: #F9F9F9;
+  }
+}

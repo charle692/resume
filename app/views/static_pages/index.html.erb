@@ -1,30 +1,32 @@
-<div id="about" class="row">
-	<div class="small-8 small-centered medium-uncentered medium-4 columns">
-		<%= image_tag('profile_picture.png', id: "profile_picture", alt: 'Ryan O\'Connor') %>
-	</div>
+<div id="about">
+	<div class="row">
+		<div class="small-8 small-centered medium-uncentered medium-4 columns about">
+			<%= image_tag('profile_picture.png', id: "profile_picture", alt: 'Ryan O\'Connor') %>
+		</div>
 
-	<div class="small-12 medium-8 columns">	
-		<h2 class="text-center" id="about">A Little About me</h2>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+		<div class="small-12 medium-8 columns">
+			<h2 id="about_header" class="text-center about">A Little About me</h2>
+			<p id="about_text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
 	</div>
 </div>
 
 <div id="education">
-	<div class="subtitle">	
+	<div class="subtitle">
 		<div class="row">
-			<h2 class="text-center">Education</h2>	
+			<h2 class="text-center">Education</h2>
 		</div>
 	</div>
 
-	<div class="row">	
-		<div class="small-12 medium-4 columns">		
+	<div class="row">
+		<div class="small-12 medium-4 columns">
 			<h3 class="subheaders">University of Ottawa</h3>
 			<small class="date">September 2012 - Current</small>
 		</div>
@@ -45,18 +47,18 @@
 
 		<div class="small-12 medium-8 columns">
 			<p>
-				I graduated from a small high school of about 300 people, where I earned my bilingualism certificate. In  11th grade, I decided to take a programming course where we learned the beginnings of Visual Basic. I loved programming so much that I decided to continue with programming taking a 12th grade Java programming course which was the deciding factor in pursuing Software Engineering as a post secondary study. 
+				I graduated from a small high school of about 300 people, where I earned my bilingualism certificate. In  11th grade, I decided to take a programming course where we learned the beginnings of Visual Basic. I loved programming so much that I decided to continue with programming taking a 12th grade Java programming course which was the deciding factor in pursuing Software Engineering as a post secondary study.
 			</p>
 		</div>
 	</div>
 </div>
 
 <div id="experience">
-	<div class="subtitle">	
-		<div class="row">		
+	<div class="subtitle">
+		<div class="row">
 			<h2 class="text-center">Experience</h2>
 		</div>
-	</div>	
+	</div>
 
 	<div class="row">
 		<div class="small-12 medium-4 columns">
@@ -64,8 +66,8 @@
 			<small class="date">June 2014 - August 2014</small>
 		</div>
 
-		<div class="small-12 medium-8 columns">	
-			<strong>VoIP Manager - Service Assurance and Development</strong>	
+		<div class="small-12 medium-8 columns">
+			<strong>VoIP Manager - Service Assurance and Development</strong>
 			<p>
 				At Bell Canada I  provided quality assurance for Bell's VoIP platform. I aided customers with validation testing, and verified that their results were as expected by analyzing SIP traces using Wireshark. I was also part of testing for new version releases and aided with diagnosing system outages. During my time working at Bell Canada I implemented a call forwarding feature on FreeSwitch for internal release testing.
 			</p>
@@ -73,12 +75,12 @@
 	</div>
 
 	<div class="row">
-		<div class="small-12 medium-4 columns">	
+		<div class="small-12 medium-4 columns">
 			<h3 class="subheaders">SigmaPoint Technologies</h3>
 			<small class="date">May 2013 - August 2013</small>
 		</div>
 
-		<div class="small-12 medium-8 columns">	
+		<div class="small-12 medium-8 columns">
 			<strong>Kontron Mechanic</strong>
 			<p>
 				SigmaPoint Technologies is an electronics manufacturer where I worked as a Kontron mechanic. I assembled CompactPCI boards and server boards. I worked under the Toyota Production System, used by SigmaPoint to provide quality products in a fast and efficient manner all while reducing waste.
@@ -87,13 +89,13 @@
 	</div>
 </div>
 
-<div class="row">	
-	<div class="small-12 medium-4 columns">	
+<div class="row">
+	<div class="small-12 medium-4 columns">
 		<h3 class="subheaders">Tim Hortons</h3>
 		<small class="date">September 2010 - August 2012</small>
 	</div>
 
-	<div class="small-12 medium-8 columns">	
+	<div class="small-12 medium-8 columns">
 		<strong>Drive-Through Team Member</strong>
 		<p>
 			While working at Tim Hortons, I was part of the drive-through team providing customers with fast quality service. I dealt with any customer concerns that came to my attention as professionally as possible. At Tim Hortons I developed strong communication skills as my primary function was taking drive-through orders.
@@ -105,7 +107,7 @@
 <div id="skills">
 	<div class="subtitle">
 		<div class="row">
-			<h2 class="text-center">Skills</h2>	
+			<h2 class="text-center">Skills</h2>
 		</div>
 	</div>
 
@@ -118,7 +120,7 @@
 						<td>Java</td>
 					</tr>
 
-					<tr>	
+					<tr>
 						<td><%= link_to image_tag('HTML5-shadow.png', class: 'skill_logo', id: 'HTML', alt: 'HTML'), "http://www.w3.org" %></td>
 						<td>HTML</td>
 					</tr>
@@ -157,14 +159,14 @@
 						<td><%= link_to image_tag('Java-shadow.png', class: 'skill_logo', id: 'Java EE', alt: 'Java EE'), "https://www.java.com/en/" %></td>
 						<td>Java EE</td>
 					</tr>
-				</table>	
+				</table>
 			</div>
 
-			<div class="small-6 medium-3 pull-2 columns">	
+			<div class="small-6 medium-3 pull-2 columns">
 				<table>
 					<tr class="row_height">
 						<td class="icon2"><%= link_to image_tag('eclipse-shadow.png', class: 'skill_logo', id: 'Eclipse', alt: 'Eclipse'), "https://eclipse.org" %></td>
-						<td>Eclipse</td>	
+						<td>Eclipse</td>
 					</tr>
 
 					<tr>
@@ -191,16 +193,16 @@
 						<td><%= link_to image_tag('wireshark-shadow.png', class: 'skill_logo', id: 'Wireshark', alt: 'Wireshark'), "https://www.wireshark.org" %></td>
 						<td>Wireshark</td>
 					</tr>
-					<tr>	
+					<tr>
 						<td><%= link_to image_tag('freeswitch-shadow.png', id: 'freeswitch', alt: 'FreeSwitch'), "https://freeswitch.org" %></td>
 						<td>FreeSwitch</td>
 					</tr>
 
 					<tr>
-						<td><%= link_to image_tag('heroku-shadow.png', class: 'skill_logo', id: 'Heroku', alt: 'Heroku'), "https://www.heroku.com" %></td>	
+						<td><%= link_to image_tag('heroku-shadow.png', class: 'skill_logo', id: 'Heroku', alt: 'Heroku'), "https://www.heroku.com" %></td>
 						<td>Heroku</td>
 					</tr>
-					
+
 					<tr>
 						<td><%= image_tag 'Hardware-shadow.png', class: 'skill_logo', id: 'Hardware', alt: 'Hardware' %></td>
 						<td>Hardware</td>
@@ -212,9 +214,9 @@
 </div>
 
 <!-- For on page scrolling -->
-<div id="projects">	
+<div id="projects">
 	<div class="subtitle">
-		<div class="row">		
+		<div class="row">
 			<h2 class="text-center">Projects</h2>
 		</div>
 	</div>
@@ -238,7 +240,7 @@
 
 	<div class="row">
 		<div class="small-12 small-centered medium-12 medium-push-3 columns">
-			<h3 class="subheaders">Binary Converter</h3>		
+			<h3 class="subheaders">Binary Converter</h3>
 		</div>
 	</div>
 
