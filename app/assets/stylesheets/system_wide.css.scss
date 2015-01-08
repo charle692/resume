@@ -78,31 +78,26 @@ tr {
 
 /* Containers */
 
+#education, #experience, #skills, #projects, #contact {
+	padding: 40px 0 40px;
+}
+
 #about {
 	background: #3D3F3C;
 	background-image: image-url("terminal-gif.gif");
 	background-repeat: no-repeat;
-	padding: 50px;
+	padding: 60px 0 60px;
 }
 
 #experience {
 	background: #364356;
-	margin-bottom: 20px;
 	p, strong, small{
 		color: #F9F9F9;
 	}
 }
 
-#education {
-	// margin-top: -20px;
-}
-
-#projects {
-	// margin-top: -20px;
-}
-
 #skills {
-	margin-top: -20px;
+	padding: 40px 0 40px;
 	background: #3D3F3C;
 	-moz-box-shadow:    inset 0 0 20px #000;
 	-webkit-box-shadow: inset 0 0 20px #000;
