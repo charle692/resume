@@ -2,19 +2,14 @@
 
 footer {
   background: hsl(197, 32%, 29%);
-  font-family: Fira Sans, Helvetica, Arial, sans-serif;
-}
-
-footer .columns {
-	padding: 0;
-	width: 80px;
-	line-height: 50px;
-	height: 50px;
-	text-align: center;
 }
 
 #contact_header {
   color: #F9F9F9;
+}
+
+#social_media {
+  padding: 5px 0 5px;
 }
 
 
@@ -22,22 +17,30 @@ footer .columns {
 /* Social Media Logos */
 
 .logo_images {
+  line-height: 10px;
+  margin-top: 10px;
   width : 40px;
   height: auto;
+}
+
+#twitter {
+  margin-top: 13px;
 }
 
 
 
 /* Contact */
 
-#contact {
-	color: white;
-	margin: 0 auto;
-}
-
 ul {
   list-style-type: none;
   li {
-    color: #F9F9F9;
+    color: hsl(197, 0%, 87%);
   }
 }
+
+#built {
+  margin-top: 10px;
+  margin-left: -10px;
+  color: #F9F9F9;
+}
+

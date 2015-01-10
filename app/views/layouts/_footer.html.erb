@@ -1,23 +1,23 @@
 <footer>
-  <div class="row">
-    <div class="text-center" id="contact">
-      <h3 id="contact_header">Contact</h3>
-      <ul>
-        <li>Email: <%= mail_to "charle692@gmail.com", "charle692@gmail.com", :encode => "hex"%></li>
-        <li>Phone #: (613) 662-0530</li>
-      </ul>
+  <div id="contact"> 
+    <div id="social_media" class="row">
+        <div class="small-4 small-push-1 medium-2 medium-push-9 columns">
+          <%= link_to image_tag("Social_1.png", class: "logo_images", alt: 'LinkedIn'), "https://www.linkedin.com/pub/ryan-o-connor/90/abb/a58" %>
+        </div>
+
+        <div class="small-4 small-push-5 medium-2 medium-push-1 columns">
+          <%= link_to image_tag('Social_2.png', class: "logo_images", id: "twitter", alt: 'Twitter'), "https://twitter.com/OC_Ryn/" %>
+        </div>
+
+        <div class="small-4 small-pull-3 medium-2 medium-pull-4 columns">
+          <%= link_to image_tag('GitHub.png', class: "logo_images", alt: 'GitHub Logo'), "https://github.com/charle692/" %>
+        </div>
     </div>
 
-    <div class="small-2 small-push-2 medium-2 medium-push-7 columns">
-      <%= link_to image_tag("Social_1.png", class: "logo_images", alt: 'Social Media'), "https://www.linkedin.com/pub/ryan-o-connor/90/abb/a58" %>
-    </div>
-
-    <div class="small-2 small-push-5 medium-2 medium-push-3 columns">
-      <%= link_to image_tag('Social_2.png', class: "logo_images", alt: 'Social Media'), "https://twitter.com/OC_Ryn/" %>
-    </div>
-
-    <div class="small-2 small-centered medium-2 columns">
-      <%= link_to image_tag('GitHub.png', class: "logo_images", alt: 'GitHub Logo'), "https://github.com/charle692/" %>
+    <div id="built" class="row">
+      <div class="small-12 small-centered columns">
+        <small>Built by Ryan O'Connor</small>
+      </div>
     </div>
   </div>
 </footer>

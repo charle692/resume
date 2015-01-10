@@ -2,12 +2,10 @@
 
 body {
 	background-color: #F9F9F9;
-	font-family: Fira Sans, Helvetica, Arial, sans-serif;
 }
 
 h1, h2, li, tr {
 	color: hsl(197, 32%, 29%);
-	font-family: Fira Sans, Helvetica, Arial, sans-serif;
 }
 
 h3 {
@@ -24,7 +22,6 @@ tr {
 }
 
 strong {
-	letter-spacing: 0.1rem;
 	text-rendering: optimizeLegibility;
 }
 
@@ -37,6 +34,7 @@ strong {
 }
 
 #about_header {
+	margin-top: 10px;
 	color: #F9F9F9;
 }
 
@@ -58,8 +56,8 @@ strong {
 }
 
 #freeswitch {
-	height: auto;
 	width: 50px;
+	height: auto;
 }
 
 
@@ -79,15 +77,16 @@ strong {
 
 /* Containers */
 
-#education, #experience, #skills, #projects, #contact {
-	padding: 40px 0 40px;
+//For large and medium view
+#education, #experience, #skills, #projects {
+	padding: 30px 0 10px;
 }
 
 #about {
 	background: hsl(197, 32%, 29%);
 	// background-image: image-url("terminal-gif.gif");
 	background-repeat: no-repeat;
-	padding: 60px 0 60px;
+	padding: 35px 0 25px;
 }
 
 #education {
@@ -111,3 +110,10 @@ strong {
 #projects {
 	background: hsl(197, 0%, 87%);
 }
+
+.date {
+	font-size: 14px;
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+
