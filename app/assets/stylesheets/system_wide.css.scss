@@ -25,6 +25,11 @@ strong {
 	text-rendering: optimizeLegibility;
 }
 
+@media screen and (min-width: 641px){
+	.paragraph {
+		margin-top: 20px;	
+	}
+}
 
 
 /* About */
@@ -64,13 +69,12 @@ strong {
 
 /* Projects */
 
-.project_image {
-	width: 200px;
-	height: auto;
-}
-
 #binary_converter_image {
 	margin-bottom: 30px;
+}
+
+#binary_converter {
+	margin-top: 50px;
 }
 
 
