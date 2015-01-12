@@ -25,11 +25,42 @@ strong {
 	text-rendering: optimizeLegibility;
 }
 
+//Medium View
 @media screen and (min-width: 641px){
 	.paragraph {
 		margin-top: 20px;	
 	}
+
+	.project_image {
+		height: 250px; 
+		width: auto;
+	}
+
+	.project_header {
+		margin-top: -8px; 
+	}
 }
+
+@media (min-width: 641px) {
+    #beary_small {
+        display: none;
+    }
+}
+
+// Small View
+@media screen and (max-width: 640px) {
+	.project_image {
+		height: auto; 
+		width: 300px;
+	} 
+}
+
+@media (max-width: 640px) {
+    #beary_med {
+        display: none;
+    }
+}
+
 
 
 /* About */
@@ -68,10 +99,6 @@ strong {
 
 
 /* Projects */
-
-#binary_converter_image {
-	margin-bottom: 30px;
-}
 
 #binary_converter {
 	margin-top: 50px;

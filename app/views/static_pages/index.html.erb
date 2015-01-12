@@ -221,30 +221,30 @@
 
 
 	<div class="row">
-		<div class="medium-push-4 columns">
-			<h3 class="subheaders">Property Rental System</h3>
+		<!-- Only to be displayed in medium or larger view -->
+		<div class="medium-6 columns">
+			<%= link_to image_tag('BearyBestRentals.png', class: 'project_image', id: 'beary_med', alt: 'Beary Best Rentals'), "https://bearybestrentals.herokuapp.com" %>
 		</div>
 
-		<div class="small-4 medium-4 columns">
-			<%= link_to image_tag('BearyBestRentals.png', class: 'project_image', alt: 'Beary Best Rentals'), "https://bearybestrentals.herokuapp.com" %>
-		</div>
-
-		<div class="small-8 medium-8 columns">
+		<div class="small-12 medium-6 columns">
+			<h3 class="subheaders project_header">Property Rental System</h3>
 			<p>Built using Ruby on Rails and Foundation 5, this application was build as a final project for SEG 3102 in collaboration with Craig Bryan, and Kat Drobnjakovic. Beary Best Rentals is a property rental system. It allows owners to rent out their properties, and customers to rent available properties based on given criteria.</p>
+		</div>
+
+		<!-- Only to be displayed in small view -->
+		<div class="small-12 columns">
+			<%= link_to image_tag('BearyBestRentals.png', class: 'project_image', id: 'beary_small', alt: 'Beary Best Rentals'), "https://bearybestrentals.herokuapp.com" %>
 		</div>
 	</div>
 
 	<div id="binary_converter" class="row">
-		<div class="columns">
-			<h3 class="subheaders">Binary Converter</h3>
-		</div>
-
-		<div class="small-8 medium-8 columns">
+		<div class="small-12 medium-6 columns">
+			<h3 class="subheaders project_header">Binary Converter</h3>
 			<p>Binary Converter is a simple Android application I built during the summer of 2014. This was my first experience building a mobile application. While building the application I learned about layouts, Android Debug Bridge (ABD), and the general ins and outs of Android development</p>
 		</div>
 
-		<div class="small-4 medium-4 columns">
-			<%= link_to image_tag('BinaryConverter.png', size: '300x300', id: 'binary_converter_image', alt: 'Binary Converter'), "https://play.google.com/store/apps/details?id=com.Charle692.BinaryConverter" %>
+		<div class="small-12 medium-6 columns">
+			<%= link_to image_tag('Binary_converter.png', class: 'project_image', alt: 'Binary Converter'), "https://play.google.com/store/apps/details?id=com.Charle692.BinaryConverter" %>
 		</div>
 	</div>
 </div>
