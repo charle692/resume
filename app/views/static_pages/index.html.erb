@@ -5,7 +5,10 @@
 		</div>
 
 		<div class="small-12 medium-8 columns">
-			<h2 id="about_header" class="about text-center">About Me</h2>
+			<div class="medium-pull-3 columns">
+				<h2 id="about_header" class="about text-center">About Me</h2>
+			</div>
+
 			<p id="about_text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -228,7 +231,7 @@
 
 		<div class="small-12 medium-6 columns">
 			<h3 class="subheaders project_header">Property Rental System</h3>
-			<p>Built using Ruby on Rails and Foundation 5, this application was build as a final project for SEG 3102 in collaboration with Craig Bryan, and Kat Drobnjakovic. Beary Best Rentals is a property rental system. It allows owners to rent out their properties, and customers to rent available properties based on given criteria.</p>
+			<p>Built using Ruby on Rails and Foundation 5, this application was build as a final project for SEG 3102 in collaboration with <%= link_to "Craig Bryan", "http://www.craigbryan.me/" %>, and <%= link_to "Kat Drobnjakovic", "https://github.com/katdrobnjakovic" %>. Beary Best Rentals is a property rental system. It allows owners to rent out their properties, and customers to rent available properties based on given criteria.</p>
 		</div>
 
 		<!-- Only to be displayed in small view -->
@@ -240,11 +243,11 @@
 	<div id="binary_converter" class="row">
 		<div class="small-12 medium-6 columns">
 			<h3 class="subheaders project_header">Binary Converter</h3>
-			<p>Binary Converter is a simple Android application I built during the summer of 2014. This was my first experience building a mobile application. While building the application I learned about layouts, Android Debug Bridge (ABD), and the general ins and outs of Android development</p>
+			<p>Binary Converter is a simple Android application I built during the summer of 2014. This was my first experience building a mobile application. While building the application I learned about layouts, Android Debug Bridge (ABD), and the general ins and outs of Android development.</p>
 		</div>
 
 		<div class="small-12 medium-6 columns">
-			<%= link_to image_tag('Binary_converter.png', class: 'project_image', alt: 'Binary Converter'), "https://play.google.com/store/apps/details?id=com.Charle692.BinaryConverter" %>
+			<%= link_to image_tag('Binary_converter.png', class: 'project_image', id: 'binary_screens', alt: 'Binary Converter'), "https://play.google.com/store/apps/details?id=com.Charle692.BinaryConverter" %>
 		</div>
 	</div>
 </div>

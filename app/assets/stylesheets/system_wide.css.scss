@@ -32,12 +32,28 @@ strong {
 	}
 
 	.project_image {
-		height: 250px; 
-		width: auto;
+		height: auto; 
+		width: 350px;
 	}
 
 	.project_header {
 		margin-top: -8px; 
+	}
+
+	#binary_converter {
+		margin-top: 60px;
+	}
+
+	#education, #experience, #skills, #projects {
+		padding: 30px 0 30px;
+	}
+
+	#about {
+		padding: 30px 0 30px;
+	}
+
+	#about_header {
+		margin-left: -8px;
 	}
 }
 
@@ -53,6 +69,26 @@ strong {
 		height: auto; 
 		width: 300px;
 	} 
+
+	#binary_converter {
+		margin-top: 50px;
+
+		#binary_screens {
+			margin-bottom: 20px;
+		}
+	}
+
+	#education, #experience, #skills, #projects {
+		padding: 30px 0 0;
+	}
+
+	#about {
+		padding: 35px 0 0;
+	}
+
+	#about_header {
+		margin-top: 20px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -70,10 +106,8 @@ strong {
 }
 
 #about_header {
-	margin-top: 10px;
 	color: #F9F9F9;
 }
-
 
 
 /* Skills */
@@ -101,23 +135,15 @@ strong {
 /* Projects */
 
 #binary_converter {
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 
 
 /* Containers */
 
-//For large and medium view
-#education, #experience, #skills, #projects {
-	padding: 30px 0 10px;
-}
-
 #about {
 	background: hsl(197, 32%, 29%);
-	// background-image: image-url("terminal-gif.gif");
-	background-repeat: no-repeat;
-	padding: 35px 0 25px;
 }
 
 #education {

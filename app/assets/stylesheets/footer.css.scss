@@ -42,5 +42,12 @@ ul {
   margin-top: 10px;
   margin-left: -10px;
   color: #F9F9F9;
+
+  a {
+    color: hsl(197, 0%, 80%);
+    &:hover {
+      color: #F9F9F9;
+    }
+  }
 }
 
