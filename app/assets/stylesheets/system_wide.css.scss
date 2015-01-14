@@ -1,7 +1,7 @@
 /* System Wide */
 
 body {
-	background-color: #F9F9F9;
+	background-color: hsl(0, 0%, 98%);
 }
 
 h1, h2, li, tr {
@@ -67,7 +67,7 @@ strong {
 @media screen and (max-width: 640px) {
 	.project_image {
 		height: auto; 
-		width: 300px;
+		width: 400px;
 	} 
 
 	#binary_converter {
@@ -102,11 +102,11 @@ strong {
 /* About */
 
 #about_text {
-	color: #F9F9F9;
+	color: hsl(0, 0%, 98%);
 }
 
 #about_header {
-	color: #F9F9F9;
+	color: hsl(0, 0%, 98%);
 }
 
 

@@ -4,10 +4,6 @@ footer {
   background: hsl(197, 32%, 29%);
 }
 
-#contact_header {
-  color: #F9F9F9;
-}
-
 #social_media {
   padding: 5px 0 5px;
 }
@@ -41,12 +37,12 @@ ul {
 #built {
   margin-top: 10px;
   margin-left: -10px;
-  color: #F9F9F9;
+  color: hsl(0, 0%, 98%);
 
   a {
-    color: hsl(197, 0%, 80%);
+    color: hsl(197, 0%, 87%);
     &:hover {
-      color: #F9F9F9;
+      color: hsl(0, 0%, 98%);
     }
   }
 }
