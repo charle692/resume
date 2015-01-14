@@ -27,13 +27,12 @@ strong {
 
 //Medium View
 @media screen and (min-width: 641px){
-	.paragraph {
-		margin-top: 20px;	
+	#profile_picture {
+		margin-top: 45px;	
 	}
 
-	.project_image {
-		height: auto; 
-		width: 350px;
+	.paragraph {
+		margin-top: 20px;	
 	}
 
 	.project_header {
@@ -65,10 +64,9 @@ strong {
 
 // Small View
 @media screen and (max-width: 640px) {
-	.project_image {
-		height: auto; 
-		width: 400px;
-	} 
+	.paragraph {
+		margin-top: 10px;	
+	}
 
 	#binary_converter {
 		margin-top: 50px;
@@ -101,7 +99,7 @@ strong {
 
 /* About */
 
-#about_text {
+.about_text {
 	color: hsl(0, 0%, 98%);
 }
 
@@ -136,6 +134,11 @@ strong {
 
 #binary_converter {
 	margin-top: 60px;
+}
+
+.project_image {
+	height: auto; 
+	width: 400px;
 }
 
 
