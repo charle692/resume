@@ -14,8 +14,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'tzinfo-data'
 #Zurb Foundation
 gem 'foundation-rails'
-
 gem 'normalize-rails'
+
+gem 'actionview-encoded_mail_to'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

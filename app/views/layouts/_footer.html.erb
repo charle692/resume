@@ -1,27 +1,21 @@
 <footer>
   <div id="contact"> 
     <div id="social_media" class="row">
-        <div class="small-4 small-push-1 medium-2 medium-push-9 columns">
-          <%= link_to image_tag("Social_1.png", class: "logo_images", alt: 'LinkedIn'), "https://www.linkedin.com/pub/ryan-o-connor/90/abb/a58" %>
+        <div class="small-3 small-push-1 medium-2 medium-push-9 columns">
+          <%= link_to image_tag("Social_1.png", class: 'logo_images', alt: 'LinkedIn'), "https://www.linkedin.com/pub/ryan-o-connor/90/abb/a58" %>
         </div>
 
         <div class="small-3 small-push-5 medium-2 medium-push-1 columns">
-          <%= link_to image_tag('Social_2.png', class: "logo_images", id: "twitter", alt: 'Twitter'), "https://twitter.com/OC_Ryn/" %>
+          <%= link_to image_tag('Social_2.png', class: 'logo_images', id: "twitter", alt: 'Twitter'), "https://twitter.com/OC_Ryn/" %>
         </div>
 
-        <div class="small-4 small-pull-3 medium-2 medium-pull-4 columns">
-          <%= link_to image_tag('GitHub.png', class: "logo_images", alt: 'GitHub Logo'), "https://github.com/charle692/" %>
+        <div class="small-3 small-pull-3 medium-2 medium-pull-4 columns">
+          <%= link_to image_tag('GitHub.png', class: 'logo_images', alt: 'GitHub Logo'), "https://github.com/charle692/" %>
         </div>
-    </div>
 
-    <div id="contact" class="row">
-      <div class="medium-4 push-7 columns">
-          <p>Email: <%= mail_to "charle692@gmail.com", "charle692@gmail.com", encode: "hex" %></p>
-      </div>
-      
-      <div class="medium-4 pull-5 columns"> 
-          <p>Phone: (613) 662-0530</p>
-      </div>
+        <div class="small-3 small-pull-3 medium-2 medium-pull-4 columns">
+          <%= mail_to 'charle692@gmail.com', image_tag('mail.png', class: 'logo_images', id: 'mail', alt: 'Email'), encode: "hex" %>
+        </div>
     </div>
   </div>
 </footer>
