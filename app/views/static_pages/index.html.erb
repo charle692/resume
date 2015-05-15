@@ -198,7 +198,6 @@
 	</div>
 </div>
 
-<!-- For on page scrolling -->
 <div id="projects">
 	<div class="subtitle">
 		<div class="row">
@@ -208,20 +207,13 @@
 
 
 	<div class="row">
-		<!-- Only to be displayed in medium or larger view -->
-		<div class="medium-6 columns">
-			<%= link_to image_tag('BearyBestRentals.png', class: 'project_image', id: 'beary_med', alt: 'Beary Best Rentals'), "https://bearybestrentals.herokuapp.com" %>
-		</div>
-
-		<!-- Changed website for Kat -->
-		<div class="small-12 medium-6 columns">
+		<div class="medium-6 medium-push-6 small-12 columns">
 			<h3 class="subheaders project_header">Property Rental System</h3>
 			<p>Built using Ruby on Rails and Foundation 5, this application was build as a final project for Software Design and Architecture in collaboration with <%= link_to "Craig Bryan", "http://www.craigbryan.me/" %>, and <%= link_to "Katarina Drobnjakovic", 'http://katarina.rocks/' %>. Beary Best Rentals is a property rental system. It allows customers to search for property rentals provided by other Beary Best Rental users.</p>
 		</div>
 
-		<!-- Only to be displayed in small view -->
-		<div class="small-12 columns">
-			<%= link_to image_tag('BearyBestRentals.png', class: 'project_image', id: 'beary_small', alt: 'Beary Best Rentals'), "https://bearybestrentals.herokuapp.com" %>
+		<div class="medium-6 medium-pull-6 small-12 columns">
+			<%= link_to image_tag('BearyBestRentals.jpg', class: 'project_image', id: 'beary', alt: 'Beary Best Rentals'), "https://bearybestrentals.herokuapp.com" %>
 		</div>
 	</div>
 

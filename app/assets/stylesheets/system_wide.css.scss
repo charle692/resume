@@ -28,15 +28,15 @@ strong {
 //Medium View
 @media screen and (min-width: 641px){
 	#profile_picture {
-		margin-top: 45px;	
+		margin-top: 45px;
 	}
 
 	.paragraph {
-		margin-top: 20px;	
+		margin-top: 20px;
 	}
 
 	.project_header {
-		margin-top: -8px; 
+		margin-top: -8px;
 	}
 
 	#binary_converter {
@@ -56,16 +56,11 @@ strong {
 	}
 }
 
-@media (min-width: 641px) {
-    #beary_small {
-        display: none;
-    }
-}
 
 // Small View
 @media screen and (max-width: 640px) {
 	.paragraph {
-		margin-top: 10px;	
+		margin-top: 10px;
 	}
 
 	#binary_converter {
@@ -88,13 +83,6 @@ strong {
 		margin-top: 20px;
 	}
 }
-
-@media (max-width: 640px) {
-    #beary_med {
-        display: none;
-    }
-}
-
 
 
 /* About */
@@ -137,7 +125,7 @@ strong {
 }
 
 .project_image {
-	height: auto; 
+	height: auto;
 	width: 400px;
 }
 
@@ -176,4 +164,3 @@ strong {
 	margin-top: -10px;
 	margin-bottom: 5px;
 }
-
