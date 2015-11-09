@@ -1,20 +1,24 @@
 <footer>
   <div id="contact">
     <div id="social_media" class="row">
-        <div class="small-3 small-push-1 medium-2 medium-push-9 columns">
+        <div class="small-2 medium-2 columns">
           <%= link_to image_tag("Social_1.png", class: 'logo_images', alt: 'LinkedIn'), "https://www.linkedin.com/pub/ryan-o-connor/90/abb/a58" %>
         </div>
 
-        <div class="small-3 small-push-5 medium-2 medium-push-1 columns">
+        <div class="small-2 medium-2 columns">
           <%= link_to image_tag('Social_2.png', class: 'logo_images', id: "twitter", alt: 'Twitter'), "https://twitter.com/OC_Ryn/" %>
         </div>
 
-        <div class="small-3 small-pull-3 medium-2 medium-pull-4 columns">
+        <div class="small-2 medium-2 columns">
           <%= link_to image_tag('GitHub.png', class: 'logo_images', alt: 'GitHub Logo'), "https://github.com/charle692/" %>
         </div>
 
-        <div class="small-3 small-pull-3 medium-2 medium-pull-4 columns">
+        <div class="small-2 medium-2 columns">
           <%= mail_to 'charle692@gmail.com', image_tag('mail.png', class: 'logo_images', id: 'mail', alt: 'Email'), encode: "hex" %>
+        </div>
+
+        <div class="small-2 small-pull-2 medium-2 columns">
+          <span><%= link_to 'CV', resume_path %></span>
         </div>
     </div>
   </div>

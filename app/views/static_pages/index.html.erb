@@ -10,10 +10,10 @@
 			</div>
 
 			<p class="about_text">
-				Hi, my name is Ryan O'Connor and I have just completed my 3rd year of software engineering at the University of Ottawa. I was first introduced to coding during my Visual Basic programming class back in high school. Ever since then I haven't looked back. After discovering how rewarding it is to solve a problem using code, I knew what I wanted to pursue as a career.
+				Hi, my name is Ryan O'Connor and I am currently in my 4th year of software engineering at the University of Ottawa. I was first introduced to coding during my Visual Basic programming class back in high school. Ever since then I haven't looked back. After discovering how rewarding it is to solve problems using code, I knew that's what I wanted to do for the rest of my life.
 			</p>
 			<p class="about_text">
-				Currently I am the VP Academic of the <%= link_to "Software Engineering Student Association", "http://uottawa-sesa.ca" %> where I help organize weekly Ruby on Rails tutorials, study sessions, and monthly coding events for students. When I'm taking a break from coding and helping others, I like to go skating, snowmobiling, or enjoying my time out on the water.
+				I am currently VP Academic of the <%= link_to "Software Engineering Student Association", "http://uottawa-sesa.ca" %> where I help organize weekly Ruby on Rails tutorials, study sessions, and coding events for students. When I'm taking a break from programming and helping others, I like to go skating, snowmobiling, or enjoying my time out on the water.
 			</p>
 		</div>
 	</div>
@@ -50,19 +50,34 @@
 
 	<div class="row">
 		<div class="small-12 medium-4 columns">
+			<h3 class="subheaders">BiteSite</h3>
+			<p class="date">May 2015 - Current</p>
+		</div>
+
+		<div class="small-12 medium-8 columns">
+			<strong>Junior Software Developer</strong>
+			<p>
+				<%= link_to 'BiteSite', 'http://bitesite.ca' %> is a small software development firm based out of Ottawa, Ontario where we develop full stack web applications. While working at BiteSite, I've developed a strong understanding of Ruby on Rails, RSpec through TDD, Git, and a basic understanding of JavaScript. At BiteSite, I had the opportunity to build software both independently, and with a team using agile processes.
+			</p>
+		</div>
+	</div>
+
+	<div class="row experience">
+		<div class="small-12 medium-4 columns">
 			<h3 class="subheaders">Bell Canada</h3>
 			<p class="date">June 2014 - August 2014</p>
+			<p class="date">May 2015 - August 2015</p>
 		</div>
 
 		<div class="small-12 medium-8 columns">
 			<strong>VoIP Manager - Service Assurance and Development</strong>
 			<p>
-				At Bell Canada I provided quality assurance for Bell's VoIP platform. I aided customers with validation testing and verified that their results were as expected by analyzing SIP traces using Wireshark. I was also part of testing for new version releases and helped with diagnosing system failures. During my time working at Bell Canada I implemented a call forwarding feature on FreeSwitch for internal release testing.
+				At Bell Canada I provided quality assurance for Bell's VoIP platform. I helped customers with validation testing and verified that their results were as expected by analyzing SIP traces using Wireshark. I was involved with testing for new platform releases and helped with diagnosing system failures. During my time working at Bell Canada I implemented call forwarding on FreeSwitch for internal release testing.
 			</p>
 		</div>
 	</div>
 
-	<div class="row paragraph">
+	<div class="row experience">
 		<div class="small-12 medium-4 columns">
 			<h3 class="subheaders">SigmaPoint Technologies</h3>
 			<p class="date">May 2013 - August 2013</p>
@@ -71,7 +86,7 @@
 		<div class="small-12 medium-8 columns">
 			<strong>Kontron Mechanic</strong>
 			<p>
-				SigmaPoint Technologies is an electronics manufacturer, where I worked as a Kontron mechanic. I assembled, diagnosed, and repaired CompactPCI boards and server boards. I worked under the Toyota Production System, used to provide quality products in a fast and efficient manner all while reducing waste.
+				SigmaPoint Technologies is an electronics manufacturer where I worked as a Kontron mechanic. I assembled, diagnosed, and repaired CompactPCI boards and server boards. I worked under the Toyota Production System, used to provide quality products in a fast and efficient manner while reducing waste.
 			</p>
 		</div>
 	</div>
@@ -88,75 +103,55 @@
 		<div class="small-12 medium-6 medium-centered columns">
 			<table>
 				<tr>
-					<td class="column1"><%= link_to image_tag('Java-shadow.png', class: 'skill_logo', id: 'Java', alt: 'Java'), "https://www.java.com/en/" %></td>
+					<td class="column1"><%= link_to image_tag('Java.png', class: 'skill_logo', id: 'Java', alt: 'Java'), "https://www.java.com/en/" %></td>
 					<td class="column2">Java</td>
-
-					<td class="column3"><%= link_to image_tag('eclipse-shadow.png', class: 'skill_logo', id: 'Eclipse', alt: 'Eclipse'), "https://eclipse.org" %></td>
-					<td class="column4">Eclipse</td>
+					<td class="column3"><%= link_to image_tag('terminal.png', class: 'skill_logo', id: 'Terminal', alt: 'Terminal')%></td>
+					<td class="column4">Terminal</td>
 				</tr>
 
 				<tr>
-					<td><%= link_to image_tag('HTML5-shadow.png', class: 'skill_logo', id: 'HTML', alt: 'HTML'), "http://www.w3.org" %></td>
+					<td><%= link_to image_tag('HTML5.png', class: 'skill_logo', id: 'HTML', alt: 'HTML'), "http://www.w3.org" %></td>
 					<td class="column2">HTML</td>
 
-					<td class="column3"><%= link_to image_tag('Netbeans-shadow.png', class: 'skill_logo', id: 'Netbeans', alt: 'Netbeans'), "https://netbeans.org" %></td>
-					<td class="column4">Netbeans</td>
+					<td class="column3"><%= image_tag 'Hardware.png', class: 'skill_logo', id: 'Hardware', alt: 'Hardware' %></td>
+					<td class="column4">Hardware</td>
 				</tr>
 
 				<tr>
-					<td><%= link_to image_tag('css-shadow.png', class: 'skill_logo', id: 'CSS', alt: 'CSS'), "http://www.w3.org" %></td>
+					<td><%= link_to image_tag('css.png', class: 'skill_logo', id: 'CSS', alt: 'CSS'), "http://www.w3.org" %></td>
 					<td class="column2">CSS</td>
 
-					<td class="column3"><%= link_to image_tag('Git-shadow.png', class: 'skill_logo', id: 'Git', alt: 'Git'), "http://git-scm.com"%></td>
+					<td class="column3"><%= link_to image_tag('Git.png', class: 'skill_logo', id: 'Git', alt: 'Git'), "http://git-scm.com"%></td>
 					<td class="column4">Git</td>
 				</tr>
 
 				<tr>
-					<td><%= link_to image_tag('ruby-shadow.png', class: 'skill_logo', id: 'Ruby', alt: 'Ruby'), "https://www.ruby-lang.org/en/" %></td>
+					<td><%= link_to image_tag('ruby.png', class: 'skill_logo', id: 'Ruby', alt: 'Ruby'), "https://www.ruby-lang.org/en/" %></td>
 					<td class="column2">Ruby</td>
 
-					<td class="column3"><%= link_to image_tag('android-sdk-shadow.png', class: 'skill_logo', id: 'Android-Sdk', alt: 'Android SDK'), "http://developer.android.com/index.html"%></td>
+					<td class="column3"><%= link_to image_tag('android-sdk.png', class: 'skill_logo', id: 'Android-Sdk', alt: 'Android SDK'), "http://developer.android.com/index.html"%></td>
 					<td class="column4">Android SDK</td>
 				</tr>
 
 				<tr>
-					<td><%= link_to image_tag('PostgreSQL-shadow.png', class: 'skill_logo', id: 'PostgreSQL', alt: 'PostgreSQL'), "http://www.postgresql.org" %></td>
+					<td><%= link_to image_tag('PostgreSQL.png', class: 'skill_logo', id: 'PostgreSQL', alt: 'PostgreSQL'), "http://www.postgresql.org" %></td>
 					<td class="column2">PostgreSQL</td>
 
-					<td class="column3"><%= link_to image_tag('linux-shadow.png', class: 'skill_logo', id: 'Linux', alt: 'Linux Tux'), "http://www.linuxfoundation.org"%></td>
+					<td class="column3"><%= link_to image_tag('linux.png', class: 'skill_logo', id: 'Linux', alt: 'Linux Tux'), "http://www.linuxfoundation.org"%></td>
 					<td class="column4">Linux</td>
 				</tr>
 
 				<tr>
-					<td><%= link_to image_tag('RoR-shadow.png', class: 'skill_logo', id: 'RoR', alt: 'Ruby on Rails'), "http://rubyonrails.org" %></td>
+					<td><%= link_to image_tag('RoR.png', class: 'skill_logo', id: 'RoR', alt: 'Ruby on Rails'), "http://rubyonrails.org" %></td>
 					<td class="column2">Ruby on Rails</td>
 
-					<td class="column3"><%= link_to image_tag('wireshark-shadow.png', class: 'skill_logo', id: 'Wireshark', alt: 'Wireshark'), "https://www.wireshark.org" %></td>
-					<td class="column4">Wireshark</td>
+					<td class="column3"><%= link_to image_tag('bootstrap.png', class: 'skill_logo', id: 'Bootstrap', alt: 'Bootstrap'), "http://getbootstrap.com"%></td>
+					<td class="column4">Bootstrap</td>
 				</tr>
 
 				<tr>
-					<td><%= link_to image_tag('foundation-shadow.png', class: 'skill_logo', id: 'Foundation', alt: 'Foundation'), "http://foundation.zurb.com"%></td>
+					<td><%= link_to image_tag('foundation.png', class: 'skill_logo', id: 'Foundation', alt: 'Foundation'), "http://foundation.zurb.com"%></td>
 					<td class="column2">Foundation</td>
-
-					<td class="column3"><%= link_to image_tag('freeswitch-shadow.png', id: 'freeswitch', alt: 'FreeSwitch'), "https://freeswitch.org" %></td>
-					<td class="column4">FreeSwitch</td>
-				</tr>
-
-				<tr>
-					<td><%= link_to image_tag('bootstrap-shadow.png', class: 'skill_logo', id: 'Bootstrap', alt: 'Bootstrap'), "http://getbootstrap.com"%></td>
-					<td class="column2">Bootstrap</td>
-
-					<td class="column3"><%= link_to image_tag('heroku-shadow.png', class: 'skill_logo', id: 'Heroku', alt: 'Heroku'), "https://www.heroku.com" %></td>
-					<td class="column4">Heroku</td>
-				</tr>
-
-				<tr>
-					<td><%= link_to image_tag('Java-shadow.png', class: 'skill_logo', id: 'Java_EE', alt: 'Java EE'), "https://www.java.com/en/" %></td>
-					<td class="column2">Java EE</td>
-
-					<td class="column3"><%= image_tag 'Hardware-shadow.png', class: 'skill_logo', id: 'Hardware', alt: 'Hardware' %></td>
-					<td class="column4">Hardware</td>
 				</tr>
 			</table>
 		</div>
@@ -170,11 +165,29 @@
 		</div>
 	</div>
 
-
 	<div class="row">
+		<div class="small-12 medium-6 columns">
+			<h3 class="subheaders project_header">
+				<%= link_to 'Book Store', 'https://github.com/charle692/bookstore' %>
+			</h3>
+			<p>
+				Book Store is web application that I am building for a friend using Ruby on Rails. As the name suggests, this project is an e-commerce store used to sell Czech books. This project allowed me to experiment while gathering a basic understanding of Ruby on Rails.
+			</p>
+		</div>
+
+		<div class="small-12 medium-6 columns">
+			<%= link_to image_tag('book_store.jpg', class: 'project_image', id: 'boostore', alt: 'Book store home screen'), 'https://github.com/charle692/bookstore' %>
+		</div>
+	</div>
+
+	<div class="project_container row">
 		<div class="medium-6 medium-push-6 small-12 columns">
-			<h3 class="subheaders project_header">Property Rental System</h3>
-			<p>Built using Ruby on Rails and Foundation 5, this application was build as a final project for Software Design and Architecture in collaboration with <%= link_to "Craig Bryan", "http://www.craigbryan.me/" %>, and <%= link_to "Katarina Drobnjakovic", 'http://katarina.rocks/' %>. Beary Best Rentals is a property rental system. It allows customers to search for property rentals provided by other Beary Best Rental users.</p>
+			<h3 class="subheaders project_header">
+				<%= link_to 'Property Rental System', 'https://bearybestrentals.herokuapp.com' %>
+			</h3>
+			<p>
+				Built using Ruby on Rails and Foundation 5, this application was build as a final project for Software Design and Architecture in collaboration with <%= link_to "Craig Bryan", "http://www.craigbryan.me/" %>, and <%= link_to "Katarina Drobnjakovic", 'http://katarina.rocks/' %>. Beary Best Rentals is a property rental system. It allows customers to search for property rentals provided by other Beary Best Rental users.
+			</p>
 		</div>
 
 		<div class="medium-6 medium-pull-6 small-12 columns">
@@ -182,10 +195,14 @@
 		</div>
 	</div>
 
-	<div id="binary_converter" class="row">
+	<div class="project_container row">
 		<div class="small-12 medium-6 columns">
-			<h3 class="subheaders project_header">Binary Converter</h3>
-			<p>Binary Converter is a simple Android application I built during the summer of 2014. This was my first experience building a mobile application. While building the application I learned about layouts, Android Debug Bridge (ABD), and the general ins and outs of Android development.</p>
+			<h3 class="subheaders project_header">
+				<%= link_to 'Binary Converter', 'https://play.google.com/store/apps/details?id=com.Charle692.BinaryConverter' %>
+			</h3>
+			<p>
+				Binary Converter is a simple Android application I built during the summer of 2014. This was my first experience building a mobile application. While building the application I learned about layouts, Android Debug Bridge (ABD), and the basics of Android development.
+			</p>
 		</div>
 
 		<div class="small-12 medium-6 columns">
